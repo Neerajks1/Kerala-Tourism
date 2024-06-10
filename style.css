@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+}
+.container1{
+    text-align: center;
+
+}
+.container1 h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.container2 img{
+    width: 400px;
+    padding: 10px;
+    padding-left: 50px;
+
+}
+.container2 h2{
+    padding-left: 50px;
+    color: red;
+}
+.container3 img{
+       float: right;
+       padding: 50px;
+       border: 5px solid green;
+    
+}
+.container3 p{
+   padding: 120px;
+   font-size: 20px;
+   
+}
