@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kerala Tourism</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <main>
         
-         <header>
+        <header>
              
             <div>
                 <img style="width: 150px;" src="images/logo.jpg" alt="Logo Of Kerala Tourism">
             </div>
             <nav>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="">DISTRICTS</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <button style="margin-top: 10px;">Login</button>
-                    <button>Sign Up</button>
-                    <link rel="stylesheet" href="style.css">
+                <ul class="nav-links">
+                    <li class="nav-link"><a href="#">HOME</a></li>
+                    <li class="nav-link"><a href="">DISTRICTS</a></li>
+                    <li class="nav-link"><a href="">ABOUT</a></li>
+                    <li class="nav-link"><button><a href="">Login</a></button></li>
+                    <li class="nav-link"><button><a href="">Sign up</a></button></li>
                 </ul>
             </nav>
         
@@ -103,11 +104,11 @@
 
     <form action="">
         <label for="name">NAME</label>
-        <input type="text" name="" id="" required pattern="[a-zA-Z\s]{1,20}" title="Please enter a maximum of 20 characters, using only letters and whitespace">>
+        <input type="text" name="" id="" required pattern="[a-zA-Z\s]{1,20}" title="Please enter a maximum of 20 characters, using only letters and whitespace"> <br><br>
         <label for="EMAIL">EMAIL</label>
-        <input type="email" name="" id="" pattern="" title="Please enter a valid email address">
+        <input type="email" name="" id="" pattern="" title="Please enter a valid email address"><br><br>
         <label for="PHONE NUMBER">PHONE NUMBER</label>
-        <input type="number" name="" id="" pattern="[0-9]{10}" title="Please enter exactly 10 digits">
+        <input type="number" name="" id="" pattern="[0-9]{10}" title="Please enter exactly 10 digits"><br><br>
         <label for="name">DISTRICTS</label>
         <select name="DISTRICTS" id="">
             <option value="">Thiruvananthapuram</option>
